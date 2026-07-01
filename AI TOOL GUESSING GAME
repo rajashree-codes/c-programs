@@ -20,37 +20,37 @@ int main()
 
     if(you_want_to_play_or_not== 2)
     {
-        printf("👋 Exiting game. See you next time!\n");
+        printf(" Exiting game. See you next time!\n");
         return 0;
     }
 
-    printf("\n🎮 Game Started!\n");
+    printf("\n Game Started!\n");
     printf("Guess the AI TOOL name:\n");
     printf("G_T_UB CAPILOT\n");
-    printf("Two letters are missing 🤔\n");
+    printf("Two letters are missing \n");
 
     while(1)
     {
-        printf("\n🔤 Enter first missing letter: ");
+        printf("\n Enter first missing letter: ");
         scanf(" %c", &g1);
 
-        printf("🔤 Enter second missing letter: ");
+        printf(" Enter second missing letter: ");
         scanf(" %c", &g2);
 
         attempts++;
 
         if(g1 == A1 && g2 == A2)
         {
-            printf("\n🎉 Correct! The AI tool name is GITHUB CAPILOT \n");
-            printf("🏆 You solved it in %d attempts!\n", attempts);
+            printf("\n Correct! The AI tool name is GITHUB CAPILOT \n");
+            printf(" You solved it in %d attempts!\n", attempts);
             break;
         }
         else
         {
-            printf("❌ Wrong guess. Try again!\n");
+            printf(" Wrong guess. Try again!\n");
         }
     }
 
-    printf("\n🙏 Thanks for playing the game!\n");
+    printf("\n Thanks for playing the game!\n");
 
     return 0;
