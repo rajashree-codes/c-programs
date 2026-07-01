@@ -23,7 +23,7 @@ The game gives clues about different AI tools and the player must type the corre
 ## Purpose
 
 This project was created as a beginner programer
-# psychiatric ward management system
+
 #  Psychiatric Ward Management System
 
 A console-based Psychiatric Ward Management System developed in **C**. This project helps manage patient records efficiently using file handling and menu-driven operations. It was created to strengthen my understanding of C programming, data structures, and real-world problem solving.
